@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+*{box-sizing: border-box}
+
+.img-100{
+	width: 100%; height: auto
+}
+body{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"; font-size: 16px; color: #666666; margin: 0
+}
+header{
+	width: 100%; height: 60px; background-color: #FDA53B
+}
+.container{
+	width: 80%; margin: 0 auto
+}
+.contact-section {
+    padding-top: 70px; /* xích toàn bộ phần nội dung xuống nhẹ */
+}
+.logo{
+	float: left
+}
+.menu{
+	float: right; padding-top: 20px
+}
+.menu a{
+	padding: 10px 20px; text-decoration: none; color: white; text-transform: capitalize
+}
+.menu a:hover{
+	color: #F31E21
+}
+main{
+	width: 100%; min-height: 500px; clear: both
+}
+.w25{
+	width: 25%; padding: 15px; float: left
+}
+.vien{
+	width: 100%; min-height: 200px; border: 1px solid #153DF4; border-radius: 10px; padding: 10px; text-align: center; margin-top: 40px
+}
+.bo-goc{
+	border-radius: 10px
+}
+.tour{
+	font-size: 20px; color: #1628ED
+}
+.gia{
+	color: red; font-weight: 500
+}
+footer{
+	width: 100%; height: 50px; background-color: #FDA53B; clear: both; color: white; text-align: center; line-height: 50px
+}
+.w40{ width: 40%; margin: 15px; float: left
+}
+.w60{ width: 60%; margin: 15px; float: right
+}
+.text-xanh{ color: blue
+}
+.vien-xam{ width: 100%; min-height: 300px; border: 1px solid gray; border-radius: 10px;margin-bottom: 20px
+}
+.contact-form {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 14px;
+	font-family: inherit;
+}
+
+.contact-form textarea {
+	resize: none;
+	min-height: 100px;
+}
+
+.contact-form button {
+	background-color: #007bff;
+	color: white;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight: bold;
+	transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+	background-color: #005ecb;
+}
+
+/* Căn chỉnh 2 cột song song */
+.container::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.w40 {
+	float: left;
+	width: 40%;
+	margin-right: 2%;
+}
+
+.w60 {
+	float: left;
+	width: 58%;
+}
+.container::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.w40, .w60 {
+	float: left;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.w40 {
+	width: 38%;
+	padding-right: 2%;
+}
+
+.w60 {
+	width: 60%;
+}
+
+.vien-xam { 
+	width: 100%; 
+	min-height: 300px; 
+	border: 1px solid gray; 
+	border-radius: 10px;
+	margin-bottom: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+/* --- FORM LIÊN HỆ --- */
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: 10px 0;
+}
+
+.contact-form input,
+.contact-form textarea {
+	padding: 8px 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-family: inherit;
+	font-size: 14px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.contact-form textarea {
+	resize: none;
+	min-height: 100px;
+}
+
+.contact-form button {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.contact-form button:hover {
+	background-color: #005ecb;
+}
+
+/* --- MAP --- */
+.vien-xam iframe {
+	width: 100%;
+	height: 300px;
+	border: 0;
+	border-radius: 10px;
+	display: block;
+}
+.text-den{
+	color: black;
+}
